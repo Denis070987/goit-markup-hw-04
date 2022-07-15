@@ -299,6 +299,34 @@ font-family: inherit;
 }
 
 
+/*regular*/
+.regular {
+margin-top: 94px;
+margin-bottom: 94px;
+}
+.regular-title {
+  margin-bottom: 50px;
+   font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--main-txt-cl);
+}
+.regular-list {
+  display: flex;
+  gap: 30px;
+}
+.regular-item {
+  
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+
+
 /*footer*/
 .footer {
   padding-top: 60px;
