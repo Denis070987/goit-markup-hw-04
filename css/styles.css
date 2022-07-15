@@ -175,6 +175,18 @@ img {
 .advantages {
   padding-top: 94px;
 }
+.advant-contain {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.advant-item:hover {
+}
 .advant-list {
   display: flex;
   gap: 30px;
@@ -283,7 +295,7 @@ img {
   background-color: #f5f4fa;
 }
 
-/*regular*/
+/*regular section*/
 .regular {
   margin-top: 94px;
   margin-bottom: 94px;
