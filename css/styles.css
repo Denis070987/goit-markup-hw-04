@@ -53,6 +53,8 @@ img {
   display: block;
 }
 
+
+
 /*header section*/
 .header-container {
   display: flex;
@@ -86,8 +88,28 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.header-mail {
+  display: flex;
+  align-items: baseline;
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+.header-icon:focus,
+.header-icon:hover {
+  fill: #2196F3;
+}
+ 
+
+
 .head-address {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  text-align: justify;
+  margin-left: 10px;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -95,11 +117,16 @@ img {
   color: #757575;
   padding-top: 32px;
   padding-bottom: 32px;
+  ;
 }
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
+
+
+
+
 
 /*hero section*/
 .hero {
@@ -171,6 +198,10 @@ img {
   color: var(--main-txt-cl);
 }
 
+
+
+
+
 /*advantages section*/
 .advantages {
   padding-top: 94px;
@@ -225,6 +256,9 @@ img {
   overflow: hidden;
 }
 
+
+
+
 /*doing section*/
 .doing {
   padding-top: 94px;
@@ -242,6 +276,9 @@ img {
   display: flex;
   gap: 30px;
 }
+
+
+
 
 /*team section*/
 .team {
@@ -325,10 +362,6 @@ fill: #FFFFFF;
 
 
 
-
-
-
-
 /*regular section*/
 .regular {
   margin-top: 94px;
@@ -361,25 +394,26 @@ fill: #FFFFFF;
 }
 .regular-link:hover .regular-icon {
   fill: #2196f3;
-  
-}
+  }
 .regular-link:focus .regular-icon{
   fill: #2196f3;
+  }
+
+
+
+
   
-}
-
-
-
-/*footer*/
+  /*footer*/
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .footer-container {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
 }
 .footer-logo {
+  display: block;
   margin-bottom: 20px;
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -408,6 +442,34 @@ fill: #FFFFFF;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.socials-text {
+   margin-bottom: 20px;
+  Font-style: normal;
+  font-weight: 700px;
+  Font-size: 14px;
+   Line-height: calc(16 / 14);
+    color: #FFFFFF;
+  }
+  .socials-footer {
+    display: flex;
+    margin-left: 65px;
+    }
+    .foot-list {
+      gap: 10px;
+      display: flex;
+    }
+    .foot-icon {
+      fill: #FFFFFF;
+    }
+    .foot-link{
+    
+      background-color: rgba(255, 255, 255, 0.1) ;
+    }
+
+
+
+
+
 
 /*portfolio section*/
 .portfolio {
