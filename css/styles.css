@@ -286,6 +286,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 .team-item {
   background-color: #ffffff;
@@ -294,6 +295,39 @@ img {
 .team {
   background-color: #f5f4fa;
 }
+/*Socials icons*/
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #AFB1B8;
+  
+}
+.socials-icon {
+fill: currentColor;
+}
+.socials-link:hover,
+.socials-link:focus {
+fill: #FFFFFF;
+  background-color: #2196F3;
+}
+
+
+
+
+
+
+
+
 
 /*regular section*/
 .regular {
@@ -327,11 +361,14 @@ img {
 }
 .regular-link:hover .regular-icon {
   fill: #2196f3;
+  
 }
-.regular-link:focus-within {
+.regular-link:focus .regular-icon{
   fill: #2196f3;
-  border-color: #2196f3;
+  
 }
+
+
 
 /*footer*/
 .footer {
