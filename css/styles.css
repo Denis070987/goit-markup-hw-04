@@ -137,17 +137,9 @@ img {
 
 .hero {
   background-color: #C4C4C4;
-   
-  
-  background-image: radial-gradient(circle at top right, #2F303A 40%, rgba(47, 48, 58, 0.4)), url(../images/imghero.jpg) ;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero.jpg) ;
   background-repeat: no-repeat;
-  
   background-size: cover;
-}
-
-
-.footer{
-  background-color: var(--dark-bg-cl);
 }
 
 .uppertitle {
@@ -170,6 +162,8 @@ img {
   background-color: var(--accent-tx-cl);
   padding: 9px 29px;
 }
+
+
 
 /*button*/
 .main-btn:hover {
@@ -266,6 +260,7 @@ img {
 
 
 
+
 /*doing section*/
 .doing {
   padding-top: 94px;
@@ -339,6 +334,9 @@ img {
 .team {
   background-color: #f5f4fa;
 }
+
+
+
 /*Socials icons*/
 .socials-list {
   display: flex;
@@ -411,9 +409,10 @@ fill: #FFFFFF;
 
   
   /*footer*/
-.footer {
+  .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--dark-bg-cl);
 }
 .footer-container {
   display: flex;
@@ -469,8 +468,7 @@ fill: #FFFFFF;
       fill: #FFFFFF;
     }
     .foot-link{
-    
-      background-color: rgba(255, 255, 255, 0.1) ;
+     background-color: rgba(255, 255, 255, 0.1) ;
     }
 
 
@@ -524,6 +522,13 @@ fill: #FFFFFF;
   border-top: none;
   padding: 20px 24px;
 }
+.project-item:hover{  
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+
 
 .link:hover,
 .link:focus {
@@ -538,3 +543,6 @@ fill: #FFFFFF;
 .btn:focus {
   color: var(--accent-tx-cl);
 }
+
+
+
