@@ -102,10 +102,7 @@ img {
 .header-icon:hover {
   fill: #2196F3;
 }
- 
-
-
-.head-address {
+ .head-address {
   display: inline-flex;
   align-items: center;
   text-align: justify;
@@ -138,8 +135,18 @@ img {
   align-items: center;
 }
 
-.footer,
 .hero {
+  background-color: #C4C4C4;
+   
+  
+  background-image: radial-gradient(circle at top right, #2F303A 40%, rgba(47, 48, 58, 0.4)), url(../images/imghero.jpg) ;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+
+
+.footer{
   background-color: var(--dark-bg-cl);
 }
 
